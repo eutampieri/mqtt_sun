@@ -1,0 +1,16 @@
+[package]
+name = "mqtt_sun"
+version = "0.1.0"
+authors = ["Eugenio Tampieri <eugenio@eutampieri.eu>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sun = "0.2"
+rumqttc = "0.7"
+astro = "2"
+chrono = "0.4"
+log = "0.4"
+syslog = "5"
+simple_logger = "1"
